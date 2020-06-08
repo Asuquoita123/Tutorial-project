@@ -1,0 +1,91 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.me{
+    color: white;
+    background-image: url("./images/columbian.jpg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 200px;
+}
+@media screen and (min-width=576px){
+    body{
+        background-color: red;
+    }
+    p{
+        background-color: yellow;
+    }
+    h2{
+        color: blue;
+        font-size: 60px;
+    }
+}
+ul, li,a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0px;
+    padding: 0px;
+    color: yellow;
+    text-transform: uppercase;
+    background-attachment: fixed;
+    
+
+}
+.false{
+    float: right;
+    clear: right;
+    border-radius: 100px;
+}
+#social-icon{
+    color: blue;
+    font-size: 5rem;
+    float: right;
+}
+.fa-home{
+    color: green;
+    font-size: 5rem;
+
+}
+.home{
+    color: white;
+}
+/*About us*/
+
+ul, li, a {
+
+}
+.my{
+    background-color: green;
+    text-align: center;
+}
+.nav{
+    float: right;
+}
+.img{
+    background-image: url(./images/Etsy.jpg);
+    height: 10vh;
+    color: white;
+    background-attachment: fixed;
+}
+.back{
+    color: blue;
+}
+.work{
+    color: green;
+}
+.work :hover{
+    color: yellow;
+    
+}
+.work :active{
+color: blue;
+}
+.work :visited{
+color: red;
+}
